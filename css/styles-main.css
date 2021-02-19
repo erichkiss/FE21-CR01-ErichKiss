@@ -5,23 +5,28 @@
 }
 
 p {
+    position: relative;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     width: 100%;
+    left: 20px;
+    
 }
 
 .top-preview {
     /* margin: 0 auto;  <- does'nt work */
-    float:left;
+    /*float:left;*/
+    margin-top: 20px;
     width: 100%;
     clear:both;
     left: 300px;
 }
 
 .preview {
-    float: left;
-    width: 800px;
+    display: inline-block;
+    width: 49vw;
+    margin-top: 20px;
 }
 
 .top-preview-img {
