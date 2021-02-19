@@ -30,12 +30,13 @@ p {
     height: 200px;
     left:20vw; /* is the only thing that worked somehow - but not satisfying */
     /*margin: 0 auto;  <- didnt work */
+    /* I have no idea how to center that image correctly */
 }
 
 .preview-img {
     position: relative;
     width: 80%;
-    margin: auto;
+    margin: auto; /*not sure what effect this has*/
     top: 0;
     left: 100px;
     right: 0;
