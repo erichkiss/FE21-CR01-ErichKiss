@@ -12,6 +12,7 @@ p {
 }
 
 .top-preview {
+    /* margin: 0 auto;  <- does'nt work */
     float:left;
     width: 100%;
     clear:both;
@@ -24,16 +25,19 @@ p {
 }
 
 .top-preview-img {
-    width: 800px;
+    position: relative;
+    width: 60%;
     height: 200px;
+    left:20vw; /* is the only thing that worked somehow - but not satisfying */
+    /*margin: 0 auto;  <- didnt work */
 }
 
 .preview-img {
     position: relative;
-    width: 60%;
+    width: 80%;
     margin: auto;
     top: 0;
-    left: 0;
+    left: 100px;
     right: 0;
     bottom: 0;
 }
