@@ -1,7 +1,7 @@
 /* to be honest, I copied Lesias method and adapted it*/
 
 nav {
-    position: sticky;
+    position: sticky; /* does not work as intended - the picture overlaps the NavBar, z-index needed! */
     float: right;
     width: 100%;
     background-color: #c65252;
