@@ -1,10 +1,14 @@
 /* to be honest, I copied Lesias method and adapted it*/
 
 nav {
+    position: sticky;
     float: right;
     width: 100%;
     background-color: #c65252;
     margin-bottom: 50px;
+    left: 0px;
+    top: 0px;
+     
 }
 
     nav ul {

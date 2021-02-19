@@ -20,7 +20,7 @@
 
 
     <nav>
-        <ul>
+        <ul> <!-- as "float: right;" flips the order of the list, I flipped the order in HTML - don't know yet, how to avoid that"-->
 			<li><a href="">Contact</a></li>
 		    <li><a href="">About me</a></li>
 			<li><a href="">Blog</a></li>
@@ -28,23 +28,39 @@
 		</ul>
     </nav>
 
-
     <main>
-        <span>
-            <h1>This is my first</h1>
-            <h1>website :D</h1>
-        </span>
-        <div class="preview"><img src="img/Phone.png"></div>
-        <div class="preview"><img src="img/Debit_card_ATM.jpg"></div>
-        <div class="preview"><img src="img/Taxify-Scooters.jpg"></div>
+        <div id="main-banner">
+            <span>
+                <h1>This is my first</h1>
+                <h1>website :D</h1>
+            </span>
+        </div>    
+        
+        <!-- I tried to solve this with <figure> & <img> & <figcaption> but I could not manage to place two pictures side by side -->
+        
+        
+        <div class="top-preview">
+            <img class="top-preview-img" src="img/Phone.png">
+            <p>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life</p>
+        </div>
+        <div class="preview">
+            <img class="preview-img" src="img/Debit_card_ATM.jpg">
+            <p>Police are investigating three ATM explosions in two Florida counties</p>
+         </div>
+         <div class="preview">
+            <img class="preview-img" src="img/Taxify-Scooters.jpg">
+            <p>E-scooter firm Bolt pulls out of 12 cities</p>
+         </div>
+        
     </main>
+    
 
 
     <!--<aside></aside>-->
 
 
     <footer>
-        <img id="footer-logo" src="img/logo.png">
+        <div><img id="footer-logo" src="img/logo.png"></div>
         <span id="footer-copyright"><p>Erich Kiss - Code Factory 2020</p></span>
     </footer>
 </body>
