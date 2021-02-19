@@ -1,0 +1,30 @@
+/* to be honest, I copied Lesias method and adapted it*/
+
+nav {
+    float: right;
+    width: 100%;
+    background-color: #c65252;
+    margin-bottom: 50px;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        nav ul li {
+            float: right;
+            width: auto;
+            padding: 0 10px;
+            /*box-sizing: border-box;*/
+        }
+
+            nav ul li a {
+                float: right;
+                color: #ebd9d9;
+                padding: 20px 0;
+                text-decoration: none;
+                font-size: larger;
+                margin-right: 10px;
+            }
